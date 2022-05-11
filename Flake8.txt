@@ -1,0 +1,18 @@
+(base) danielgutierrez@Daniels-MacBook-Pro pruebasPip % cd ..
+(base) danielgutierrez@Daniels-MacBook-Pro pruebasPython % flake8 ConnectFour.py
+ConnectFour.py:12:1: F403 'from turtle import *' used; unable to detect undefined names
+ConnectFour.py:22:5: F405 'bgcolor' may be undefined, or defined from star imports: turtle
+ConnectFour.py:29:13: F405 'up' may be undefined, or defined from star imports: turtle
+ConnectFour.py:30:13: F405 'goto' may be undefined, or defined from star imports: turtle
+ConnectFour.py:31:13: F405 'dot' may be undefined, or defined from star imports: turtle
+ConnectFour.py:33:5: F405 'update' may be undefined, or defined from star imports: turtle
+ConnectFour.py:47:5: F405 'up' may be undefined, or defined from star imports: turtle
+ConnectFour.py:48:5: F405 'goto' may be undefined, or defined from star imports: turtle
+ConnectFour.py:49:5: F405 'dot' may be undefined, or defined from star imports: turtle
+ConnectFour.py:50:5: F405 'update' may be undefined, or defined from star imports: turtle
+ConnectFour.py:56:1: F405 'setup' may be undefined, or defined from star imports: turtle
+ConnectFour.py:57:1: F405 'hideturtle' may be undefined, or defined from star imports: turtle
+ConnectFour.py:58:1: F405 'tracer' may be undefined, or defined from star imports: turtle
+ConnectFour.py:60:1: F405 'onscreenclick' may be undefined, or defined from star imports: turtle
+ConnectFour.py:61:1: F405 'done' may be undefined, or defined from star imports: turtle
+(base) danielgutierrez@Daniels-MacBook-Pro pruebasPython % 
